@@ -43,10 +43,12 @@ volcano_app_r/
 ```r
 install.packages(c("shiny", "ggplot2", "plotly", "DT", "bslib", "shinycssloaders"))
 
+2️⃣ Ejecuta la app:
+
 Ejecuta la app:
 shiny::runApp("app.R")
 
-### 3️⃣ Uso
+3️⃣ Uso
 
 Sube el archivo de ejemplo example_volcano.csv.
 
