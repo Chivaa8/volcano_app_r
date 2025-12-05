@@ -50,7 +50,10 @@ install.packages(c("shiny", "ggplot2", "plotly", "DT", "bslib", "shinycssloaders
 ### 2️⃣ Ejecuta la app:
 
 Ejecuta la app:
+
+```r
 shiny::runApp("app.R")
+```
 
 ---
 
@@ -72,7 +75,7 @@ Incluye un archivo example_volcano.csv con 100 genes, log2 fold changes y p-valu
 
 ---
 
- ##👤 Autor
+ ## 👤 Autor
 
 Desarrollado por Oriol Chiva Hidalgo
 📧 Contacto: oriolchiva8@gmail.com
