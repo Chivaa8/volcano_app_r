@@ -73,9 +73,9 @@ Incluye un archivo example_volcano.csv con 100 genes, log2 fold changes y p-valu
 
  ## 👤 Autor
 
-Desarrollado por Oriol Chiva Hidalgo
+Desarrollado por **Oriol Chiva Hidalgo**
 
-## 📧 Contacto
+## 📧 Contacto: 
 oriolchiva8@gmail.com / oriol.chiva.hidalgo@gmail.com
 
 © 2025 – Proyecto educativo y de investigación bajo licencia MIT
