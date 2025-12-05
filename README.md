@@ -1,4 +1,4 @@
-# 🌅 Shiny App – Volcano Plot Interactivo (Bioinformática)
+# Shiny App – Volcano Plot Interactivo (Bioinformática)
 
 ![R Shiny](https://img.shields.io/badge/R-Shiny-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -43,12 +43,16 @@ volcano_app_r/
 ```r
 install.packages(c("shiny", "ggplot2", "plotly", "DT", "bslib", "shinycssloaders"))
 
-2️⃣ Ejecuta la app:
+---
+
+### 2️⃣ Ejecuta la app:
 
 Ejecuta la app:
 shiny::runApp("app.R")
 
-3️⃣ Uso
+---
+
+### 3️⃣ Uso
 
 Sube el archivo de ejemplo example_volcano.csv.
 
@@ -58,11 +62,15 @@ Explora el Volcano Plot interactivo y la tabla de genes significativos.
 
 Descarga tus gráficos en el formato deseado.
 
-🧠 Datos de ejemplo
+---
+
+## 🧠 Datos de ejemplo
 
 Incluye un archivo example_volcano.csv con 100 genes, log2 fold changes y p-values simulados para mostrar la funcionalidad de la app.
 
-👤 Autor
+---
+
+ ##👤 Autor
 
 Desarrollado por Oriol Chiva Hidalgo
 📧 Contacto: oriolchiva8@gmail.com
