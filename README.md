@@ -1,26 +1,69 @@
-# Volcano App - R Shiny
+# 🌅 Shiny App – Volcano Plot Interactivo (Bioinformática)
 
-**Autor:** Oriol Chiva Hidalgo 
-**Versión:** 3.2  
-**Licencia:** MIT  
+![R Shiny](https://img.shields.io/badge/R-Shiny-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/version-3.2-brightgreen)
 
-## Descripción
+---
 
-Esta aplicación permite explorar y visualizar resultados de análisis diferencial mediante **Volcano Plot interactivo**.  
-Ideal para datos de transcriptómica, proteómica o cualquier tipo de datos ómicos tabulares.
+## 📖 Descripción
 
-## Características
+Aplicación **interactiva desarrollada en R Shiny** para generar **Volcano Plots** a partir de **resultados de análisis diferencial** (por ejemplo, RNA-seq, proteómica o cualquier tipo de datos ómicos tabulares).
 
-- Subida de tabla `.csv` con columnas `log2FC` y `pvalue`.
-- Visualización interactiva del Volcano Plot usando **Plotly**.
-- Resaltar genes significativos según umbrales de log2FC y p-value.
-- Descargar gráficos en PNG, JPG y PDF.
-- Tabla de genes significativos.
-- Pestaña "Acerca de" con información de la app.
+Permite explorar los genes significativos, ajustar los thresholds de log2 fold change y p-value, elegir paletas de colores, mostrar etiquetas de genes y exportar figuras de alta resolución para publicaciones científicas.
 
-## Uso
+---
 
-1. Ejecuta la aplicación en RStudio con:
+## ⚙️ Funcionalidades
+
+- 📂 Carga de archivos `.csv` con columnas `gene`, `log2FC` y `pvalue`.
+- 📊 Visualización interactiva con `plotly`.
+- ⚖️ Ajuste de thresholds: |log2FC| mínimo y p-value máximo.
+- 🏷️ Mostrar u ocultar etiquetas de genes significativos.
+- 🎨 Selección de paleta de colores (Sunset, Viridis, Magma, Pastel).
+- 💾 Descarga de gráficos en **PNG**, **JPG** o **PDF**.
+- 🔍 Tabla interactiva de genes significativos con `DT`.
+
+---
+
+## 🧩 Estructura del proyecto
+volcano_app_r/
+│
+├── app.R # Código principal de la app
+├── example_volcano.csv # Datos de prueba para Volcano Plot
+└── README.md # Descripción del proyecto
+
+
+---
+
+## 🚀 Ejecución
+
+### 1️⃣ Instala los paquetes necesarios:
 
 ```r
-shiny::runApp("ruta/a/tu/carpeta/volcano")
+install.packages(c("shiny", "ggplot2", "plotly", "DT", "bslib", "shinycssloaders"))
+
+Ejecuta la app:
+shiny::runApp("app.R")
+
+### 3️⃣ Uso
+
+Sube el archivo de ejemplo example_volcano.csv.
+
+Ajusta los thresholds de log2FC y p-value.
+
+Explora el Volcano Plot interactivo y la tabla de genes significativos.
+
+Descarga tus gráficos en el formato deseado.
+
+🧠 Datos de ejemplo
+
+Incluye un archivo example_volcano.csv con 100 genes, log2 fold changes y p-values simulados para mostrar la funcionalidad de la app.
+
+👤 Autor
+
+Desarrollado por Oriol Chiva Hidalgo
+📧 Contacto: oriolchiva8@gmail.com
+ / oriol.chiva.hidalgo@gmail.com
+
+© 2025 – Proyecto educativo y de investigación bajo licencia MIT
