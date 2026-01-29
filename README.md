@@ -27,11 +27,13 @@ Permite explorar los genes significativos, ajustar los thresholds de log2 fold c
 ---
 
 ## 🧩 Estructura del proyecto
+```
 volcano_app_r/
 │
 ├── app.R # Código principal de la app
 ├── example_volcano.csv # Datos de prueba para Volcano Plot
 └── README.md # Descripción del proyecto
+```
 
 
 ---
