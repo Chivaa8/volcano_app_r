@@ -27,8 +27,8 @@ df <- data.frame(
   pvalue = pvalue
 )
 
-# Ruta donde guardar el CSV, cambia la ruta a tu ruta propia
-ruta <- "C:/Users/Chiva/Dropbox/PC/Desktop/Colegio/Aplicaciones Web 2025-26/FTC/volcano/volcano_100genes_test.csv"
+# Guardar el CSV en la carpeta desde donde se ejecuta el script
+ruta <- file.path(getwd(), "volcano_100genes_test.csv")
 
 # Guardar CSV
 write.csv(df, ruta, row.names = FALSE)
